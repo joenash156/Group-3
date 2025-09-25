@@ -33,7 +33,7 @@ public class App {
 
             // Use switch
             switch(letter) {
-                case 'a','b','c', 'A' -> {
+                case 'a','b','c' -> {
                     System.out.println("2");
                     break;
                 }
