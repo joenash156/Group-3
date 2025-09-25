@@ -9,9 +9,9 @@ public class App {
             double weight;
             double height;
 
-            System.out.println("Enter you weight(in pounds): ");
+            System.out.print("Enter you weight(in pounds): ");
             weight = input.nextDouble();
-            System.out.println("Enter your height(in inches): ");
+            System.out.print("Enter your height(in inches): ");
             height = input.nextDouble();
 
             final double POUNDS = 0.45359237;
@@ -22,7 +22,7 @@ public class App {
             double heightMSq = heightM * heightM;
 
             double bmi = weightKg / (heightMSq);
-            System.out.printf("Your BMI is %f%n", bmi);
+            System.out.printf("Your BMI is %fkg/m^2 %n", bmi);
 
         }
     }
