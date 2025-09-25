@@ -29,7 +29,7 @@ public class App {
             // Take user's input
             System.out.print("Enter a letter: ");
             // Assign the first character to variable letter
-            letter = input.next().charAt(0); 
+            letter = input.next().toLowerCase().charAt(0); 
 
             // Use switch
             switch(letter) {
